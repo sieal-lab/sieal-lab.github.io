@@ -75,8 +75,12 @@ once that file has an entry.
 
 ### Change page text
 
-The pages are in **`_pages/`** — `home.md`, `research.md`, `team.md`, `join.md`, `contact.md`,
-`about.md`, `publications.md`, `software.md`. They are Markdown; edit the words and commit.
+The pages are in **`_pages/`** — `home.md`, `research.md`, `team.md`, `partner.md`, `join.md`,
+`contact.md`, `about.md`, `publications.md`, `software.md`. They are Markdown; edit the words
+and commit.
+
+Adding a page: create the file with a `permalink:`, then add its name to `nav_pages` in
+`_config.yml`. A nav entry whose name has no matching permalink renders a dead link.
 
 ### Update the openings
 
