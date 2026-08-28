@@ -42,7 +42,9 @@ If you meet most of the above and are unsure about the rest, apply anyway and sa
 
 Send a CV and a short statement &mdash; half a page is plenty &mdash; explaining what draws you to this work and
 what you would want to learn.
-{% if site.email and site.email != "" %}Email it to <a href="mailto:{{ site.email }}">{{ site.email }}</a>.{% endif %}
+{% if site.apply_email and site.apply_email != "" %}Email it to
+<a href="mailto:{{ site.apply_email }}?subject=Junior%20Research%20Assistant%20application">{{ site.apply_email }}</a>,
+with your name in the subject line.{% endif %}
 
 <!-- TODO: add the application deadline and, if there is a formal JKUAT HR route, link it here -->
 </div>

@@ -90,6 +90,11 @@ no Join page. If nothing is open, say so plainly and say when that will change.
 **`_config.yml`** holds the lab identity, the links shown in the sidebar and footer, and the
 navigation menu. Blank links are hidden automatically, so removing a link is as simple as emptying it.
 
+Two contact addresses: `email` (general, shown in the sidebar, footer and Contact page) and
+`apply_email` (the Join page only, so applications stay filterable). Both are forwarders on
+`sieal.org` configured at Namecheap — if either starts attracting spam, change the alias there
+and update it here. Nothing else on the site needs to change.
+
 ## Domain
 
 `CNAME` contains `sieal.org`. For that to work, the domain's DNS needs:

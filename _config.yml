@@ -4,7 +4,8 @@
 name: "SIEAL"
 title: "Spatial Intelligence and Environmental Analytics Lab"
 institution: "Department of Geomatic Engineering & Geospatial Information Systems, JKUAT"
-email: ""            # TODO: add your JKUAT address — this is the lab's public contact
+email: "info@sieal.org"        # general enquiries
+apply_email: "apply@sieal.org" # job applications, kept separate so they filter cleanly
 photo: sieal-card.jpg
 
 # Principal investigator (used in the page metadata search engines read)

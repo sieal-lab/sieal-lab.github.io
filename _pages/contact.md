@@ -16,7 +16,9 @@ Jomo Kenyatta University of Agriculture and Technology
 P.O. Box 62000&ndash;00200, Nairobi, Kenya
 
 {% if site.email and site.email != "" %}
-**Email:** [{{ site.email }}](mailto:{{ site.email }})
+**General enquiries:** [{{ site.email }}](mailto:{{ site.email }})
+{% endif %}{% if site.apply_email and site.apply_email != "" %}
+**Job applications:** [{{ site.apply_email }}](mailto:{{ site.apply_email }}) &mdash; see [Join us]({{ site.url }}{{ site.baseurl }}/join) first
 {% endif %}
 
 **Department:** [JKUAT GEGIS](https://www.jkuat.ac.ke/school/scege/?page_id=17406)
