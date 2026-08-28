@@ -38,6 +38,13 @@ url: "https://sieal-lab.github.io"
 analytics:
   google_id: ""      # optional: GA4 measurement ID
 
+# Search engine verification. Paste the code each tool gives you — just the
+# code, not the whole <meta> tag. Leave blank and no tag is emitted.
+#   Google: search.google.com/search-console  (choose the HTML tag method)
+#   Bing:   bing.com/webmasters
+google_site_verification: ""
+bing_site_verification: ""
+
 # ============================================================
 # Navigation
 # ============================================================

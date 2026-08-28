@@ -2,6 +2,7 @@
 title: "Software"
 layout: gridlay
 permalink: /software/
+description: "Open research software from SIEAL: AI-SCW seafloor classification, the FaunD-Fast fauna detector, and analysis-ready underwater imagery."
 ---
 
 ## Software

@@ -2,6 +2,7 @@
 title: "Publications"
 layout: gridlay
 permalink: /publications/
+description: "Peer-reviewed papers, datasets and research software from SIEAL and its founder Benson Mbani, with DOIs and open-access links."
 ---
 
 ## Publications

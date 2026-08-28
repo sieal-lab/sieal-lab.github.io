@@ -2,6 +2,8 @@
 title: "Research"
 layout: gridlay
 permalink: /research/
+seo_title: "Research: blue carbon and marine biodiversity - SIEAL"
+description: "How SIEAL maps mangrove carbon stocks with Sentinel-2 and GEDI LiDAR, and measures ecosystem condition with the Blue Biodiversity Integrity Index."
 ---
 
 ## Research

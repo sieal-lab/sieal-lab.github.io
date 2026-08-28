@@ -2,6 +2,7 @@
 title: "Team"
 layout: gridlay
 permalink: /team/
+description: "The people behind SIEAL: Dr. Benson Mbani, Ruth Mellanie Adhiambo and Orado Wiseman Safa, at JKUAT in Nairobi, Kenya."
 ---
 
 ## Team

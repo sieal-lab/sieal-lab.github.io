@@ -2,6 +2,7 @@
 title: "Contact"
 layout: gridlay
 permalink: /contact/
+description: "Reach SIEAL at the Department of Geomatic Engineering and Geospatial Information Systems, JKUAT, Nairobi, Kenya."
 ---
 
 ## Contact

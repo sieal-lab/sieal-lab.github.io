@@ -2,6 +2,8 @@
 title: "Join us"
 layout: gridlay
 permalink: /join/
+seo_title: "Open positions - SIEAL"
+description: "Two funded junior research assistant posts at SIEAL, in geospatial science and computer vision, at JKUAT in Nairobi, Kenya."
 ---
 
 ## Join us

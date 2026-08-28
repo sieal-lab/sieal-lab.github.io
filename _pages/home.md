@@ -2,6 +2,7 @@
 title: "Home"
 layout: homelay
 permalink: /
+seo_title: "SIEAL — Spatial Intelligence and Environmental Analytics Lab, JKUAT"
 ---
 
 <h2 class="home-hero">Spatial Intelligence and Environmental Analytics Lab</h2>

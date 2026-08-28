@@ -135,3 +135,33 @@ git push
 
 Then set **Settings → Pages → Custom domain** to `sieal.org` and tick *Enforce HTTPS*.
 Until that happens the site serves from <https://sieal-lab.github.io>.
+
+---
+
+## Search engines
+
+### Getting verified
+
+`_config.yml` has `google_site_verification` and `bing_site_verification`. Paste in the code each
+tool gives you — **just the code, not the whole `<meta>` tag** — commit, and the tag appears on
+every page. Then click Verify.
+
+- Google: [Search Console](https://search.google.com/search-console) → add property → *HTML tag* method.
+  Afterwards submit `sitemap.xml` and use *URL Inspection → Request indexing* on the home page.
+- Bing: [Webmaster Tools](https://www.bing.com/webmasters) — it can import everything from Google.
+
+Leave either blank and no tag is emitted.
+
+### Page titles and descriptions
+
+Each page's `<title>`, its Google snippet, and its social-share card come from two optional
+front matter fields:
+
+```yaml
+seo_title: "Open positions - SIEAL"     # defaults to "<title> - SIEAL"
+description: "Two funded junior..."     # defaults to site.description
+```
+
+Keep `seo_title` under about 60 characters and `description` between 120 and 160 — longer and
+Google truncates them. Write the description as the sentence you would want someone to read in
+the search results, because that is usually exactly what it becomes.
