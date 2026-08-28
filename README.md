@@ -37,6 +37,9 @@ Two rules:
 1. **The key must be unique** — that's the `mbani2027example` part. Reusing a key silently drops an entry.
 2. **Use the right type.** `@article` → Journal articles, `@unpublished` → In preparation,
    `@misc` → Datasets and research software, `@phdthesis` → Thesis. Anything else won't appear.
+3. **Never put a `%` comment inside an entry.** `%` only works *between* entries. A comment line
+   between the `{` and the closing `}` fails the whole build with
+   `Failed to parse BibTeX`. Put notes on the line above the `@`.
 
 ### Add a news item
 
