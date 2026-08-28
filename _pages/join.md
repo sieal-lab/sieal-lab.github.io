@@ -1,7 +1,6 @@
 ---
 title: "Join us"
 layout: gridlay
-sitemap: false
 permalink: /join/
 ---
 

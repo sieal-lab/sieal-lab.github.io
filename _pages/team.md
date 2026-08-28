@@ -1,7 +1,6 @@
 ---
 title: "Team"
 layout: gridlay
-sitemap: false
 permalink: /team/
 ---
 

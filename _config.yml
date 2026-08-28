@@ -30,7 +30,10 @@ accent_color: "#1a7a6d"
 dark_mode: true
 description: "SIEAL builds GeoAI pipelines that measure carbon storage and biodiversity in Kenya's mangrove and coastal ecosystems, using satellite imagery, underwater video and machine learning."
 baseurl: ""
-url: "https://sieal.org"
+# The site's real address. Switch this to https://sieal.org at the same time
+# as you rename CNAME.disabled -> CNAME (see the README) — they must match, or
+# canonical links and the sitemap will point at the wrong host.
+url: "https://sieal-lab.github.io"
 
 analytics:
   google_id: ""      # optional: GA4 measurement ID

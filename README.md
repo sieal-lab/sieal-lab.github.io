@@ -128,7 +128,8 @@ in the table above:
 
 ```bash
 git mv CNAME.disabled CNAME
-git commit -m "Point the site at sieal.org"
+# and change url: in _config.yml to https://sieal.org — the two must match
+git commit -am "Point the site at sieal.org"
 git push
 ```
 
