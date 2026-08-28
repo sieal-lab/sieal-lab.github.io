@@ -115,3 +115,19 @@ bundle exec jekyll serve   # http://localhost:4000
 git remote add upstream https://github.com/sbryngelson/academic-website-template.git
 git fetch upstream && git diff upstream/main -- _layouts _includes _sass
 ```
+
+---
+
+## Turning on the custom domain
+
+`CNAME.disabled` holds the domain, parked. Once you have bought `sieal.org` and added the DNS records
+in the table above:
+
+```bash
+git mv CNAME.disabled CNAME
+git commit -m "Point the site at sieal.org"
+git push
+```
+
+Then set **Settings → Pages → Custom domain** to `sieal.org` and tick *Enforce HTTPS*.
+Until that happens the site serves from <https://sieal-lab.github.io>.
