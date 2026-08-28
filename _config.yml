@@ -54,6 +54,7 @@ nav_pages:
   - name: publications
   - name: software
   - name: team
+  - name: partner
   - name: join
     label: "Join us"
   - name: contact

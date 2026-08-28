@@ -53,4 +53,5 @@ Ocean cohort, in support of BBNJ Treaty implementation.
 </div>
 
 <p markdown="0"><a href="{{ site.url }}{{ site.baseurl }}/research" class="btn-pill btn-website">Explore our research &rarr;</a>
+<a href="{{ site.url }}{{ site.baseurl }}/partner" class="btn-pill btn-doi">Work with us &rarr;</a>
 <a href="{{ site.url }}{{ site.baseurl }}/join" class="btn-pill btn-git">We are hiring &rarr;</a></p>

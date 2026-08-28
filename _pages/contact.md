@@ -32,6 +32,9 @@ P.O. Box 62000&ndash;00200, Nairobi, Kenya
 ### Working with us
 
 For collaborations, data requests, or questions about the Blue-BII methodology, email is the fastest route.
-If you are interested in joining the lab, see [Join us]({{ site.url }}{{ site.baseurl }}/join) first &mdash;
-it will tell you what we are currently recruiting for.
+
+If you are an organisation with a site to measure or a disclosure obligation to evidence, start at
+[Partner with us]({{ site.url }}{{ site.baseurl }}/partner). If you are looking to join the lab, see
+[Join us]({{ site.url }}{{ site.baseurl }}/join) first &mdash; it will tell you what we are currently
+recruiting for.
 </div>

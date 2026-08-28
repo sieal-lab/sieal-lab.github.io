@@ -50,6 +50,8 @@ Western Indian Ocean.
 ### Get in touch
 
 We welcome collaboration with conservation organisations, carbon project developers and researchers working on
-coastal ecosystems in the Western Indian Ocean. See [Contact]({{ site.url }}{{ site.baseurl }}/contact), or
-[Join us]({{ site.url }}{{ site.baseurl }}/join) if you are looking to work in the lab.
+coastal ecosystems in the Western Indian Ocean &mdash; see [Partner with us]({{ site.url }}{{ site.baseurl }}/partner)
+for what that can look like in practice. If you are looking to work *in* the lab,
+see [Join us]({{ site.url }}{{ site.baseurl }}/join). Otherwise our
+[contact details]({{ site.url }}{{ site.baseurl }}/contact) are here.
 </div>
