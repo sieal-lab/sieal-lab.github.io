@@ -121,22 +121,23 @@ git fetch upstream && git diff upstream/main -- _layouts _includes _sass
 
 ---
 
-## Turning on the custom domain
+## Custom domain
 
-`CNAME.disabled` holds the domain, parked. Once you have bought `sieal.org` and added the DNS records
-in the table above:
+The site is served from **https://sieal.org**. `CNAME` holds the domain and `url:` in
+`_config.yml` must always match it — if you ever move the site, change both together or
+canonical links and the sitemap will point at the wrong host.
 
-```bash
-git mv CNAME.disabled CNAME
-# and change url: in _config.yml to https://sieal.org — the two must match
-git commit -am "Point the site at sieal.org"
-git push
-```
+DNS lives at Namecheap (Domain List → Manage → Advanced DNS):
 
-Then set **Settings → Pages → Custom domain** to `sieal.org` and tick *Enforce HTTPS*.
-Until that happens the site serves from <https://sieal-lab.github.io>.
+| Type  | Host  | Value |
+|-------|-------|-------|
+| A     | `@`   | `185.199.108.153` |
+| A     | `@`   | `185.199.109.153` |
+| A     | `@`   | `185.199.110.153` |
+| A     | `@`   | `185.199.111.153` |
+| CNAME | `www` | `sieal-lab.github.io.` |
 
----
+All four A records are required — they are GitHub's redundant edge servers, not alternatives.
 
 ## Search engines
 
