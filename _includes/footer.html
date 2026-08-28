@@ -1,0 +1,41 @@
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h5>About</h5>
+      <p>
+        {{ site.name }}<br>
+        {{ site.title }}<br>
+        {{ site.institution }}
+      </p>
+    </div>
+    <div>
+      <h5>Contact</h5>
+      <p>
+        {% if site.email and site.email != "" %}<a href="mailto:{{ site.email }}"><i class="fa-solid fa-envelope"></i> {{ site.email }}</a><br>{% endif %}
+        <a href="{{ site.url }}{{ site.baseurl }}/contact"><i class="fa-solid fa-location-dot"></i> Nairobi, Kenya</a><br>
+        {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}"><i class="fa-brands fa-github"></i> GitHub</a><br>{% endif %}
+      </p>
+    </div>
+    <div>
+      <h5>Links</h5>
+      <p>
+        {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a><br>{% endif %}
+        {% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}"><i class="ai ai-researchgate"></i> ResearchGate</a><br>{% endif %}
+        <a href="{{ site.url }}{{ site.baseurl }}/publications"><i class="fa-solid fa-book"></i> Publications</a><br>
+        <a href="{{ site.url }}{{ site.baseurl }}/join"><i class="fa-solid fa-bullhorn"></i> Join us</a><br>
+        <a href="{{ site.url }}{{ site.baseurl }}/feed.xml"><i class="fa-solid fa-rss"></i> News feed</a>
+      </p>
+    </div>
+  </div>
+  <div class="footer-grid">
+    <div class="footer-copyright" style="grid-column: 1 / -1;">
+      &copy; {{ "now" | date: "%Y" }} {{ site.title | escape }} ({{ site.name | escape }}).
+      Supported by <a href="https://www.kenet.or.ke/">KENET</a> and the
+      <a href="https://aimsric.org/">AIMS Research and Innovation Centre</a> &amp; Carnegie Corporation.
+      Built with the <a href="https://github.com/sbryngelson/academic-website-template">academic website template</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/site.min.js" | relative_url }}"></script>

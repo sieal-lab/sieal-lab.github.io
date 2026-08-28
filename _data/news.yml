@@ -1,0 +1,16 @@
+# Newest first. The 3 most recent show on the home page; all show on /allnews.
+# TODO: refine the vaguer dates once you have them to hand.
+- date: June 2026
+  headline: "Blue-BII wins funding from the AIMS Research and Innovation Centre & Carnegie Corporation, extending our work to a Biodiversity Integrity Index for blue carbon ecosystems"
+
+- date: 2026
+  headline: "Deep-BII selected for the Ocean Discovery League's Western Indian Ocean cohort, taking the BII approach below 200 m in support of BBNJ Treaty implementation"
+
+- date: 2025
+  headline: "New paper in <em>Scientific Reports</em>: automated underwater image analysis reveals sediment patterns and megafauna distribution in the tropical Atlantic"
+
+- date: July 2025
+  headline: "KENET funds our Earth-observation workflow for mangrove carbon and biodiversity at Mwache Creek, Mombasa"
+
+- date: 2025
+  headline: "SIEAL established in the Department of Geomatic Engineering & Geospatial Information Systems at JKUAT"

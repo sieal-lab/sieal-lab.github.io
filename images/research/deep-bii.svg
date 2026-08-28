@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" role="img" aria-label="Depth profile showing the biodiversity index extended below 200 metres">
+  <defs>
+    <linearGradient id="d" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a8a7e"/><stop offset="42%" stop-color="#144d55"/><stop offset="100%" stop-color="#0a1c2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#d)"/>
+  <path d="M0 16 q40 -10 80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0" fill="none" stroke="#7fe3d2" stroke-width="3" opacity=".8"/>
+  <path d="M0 168 H800" stroke="#e8c34a" stroke-width="2.5" stroke-dasharray="12 9"/>
+  <text x="24" y="156" font-family="Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#e8c34a">200 m</text>
+  <text x="24" y="206" font-family="Helvetica,Arial,sans-serif" font-size="19" fill="#9fd8ce">BBNJ / deep sea</text>
+  <g fill="#7fe3d2" opacity=".75">
+    <circle cx="180" cy="228" r="5"/><circle cx="268" cy="276" r="4"/><circle cx="360" cy="242" r="6"/>
+    <circle cx="452" cy="300" r="4.5"/><circle cx="536" cy="252" r="5"/><circle cx="624" cy="290" r="4"/>
+    <circle cx="712" cy="238" r="5.5"/><circle cx="316" cy="326" r="4"/><circle cx="590" cy="336" r="4.5"/>
+  </g>
+  <g transform="translate(596 300)">
+    <path d="M32 -46 V-8" stroke="#7fe3d2" stroke-width="2.5"/>
+    <rect x="0" y="-8" width="64" height="40" rx="6" fill="#0a2b3a" stroke="#7fe3d2" stroke-width="2.5"/>
+    <circle cx="32" cy="12" r="9" fill="none" stroke="#e8c34a" stroke-width="2.5"/>
+    <path d="M-10 32 H74" stroke="#7fe3d2" stroke-width="2.5"/>
+  </g>
+  <path d="M0 366 q90 -18 180 -6 t170 -10 q90 -8 180 10 t270 -12 V400 H0 Z" fill="#08131f"/>
+</svg>

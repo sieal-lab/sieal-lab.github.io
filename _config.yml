@@ -1,0 +1,110 @@
+# ============================================================
+# SIEAL — site identity
+# ============================================================
+name: "SIEAL"
+title: "Spatial Intelligence and Environmental Analytics Lab"
+institution: "Department of Geomatic Engineering & Geospatial Information Systems, JKUAT"
+email: ""            # TODO: add your JKUAT address — this is the lab's public contact
+photo: sieal-card.jpg
+
+# Principal investigator (used in the page metadata search engines read)
+pi_name: "Benson Mbani"
+pi_title: "Lecturer, Department of Geomatic Engineering & Geospatial Information Systems, JKUAT"
+
+# ============================================================
+# Links (blank entries are hidden automatically)
+# ============================================================
+links:
+  google_scholar: ""   # TODO: paste your Google Scholar profile URL
+  orcid: ""            # TODO: paste your ORCID iD URL
+  github: "https://github.com/sieal-lab"
+  linkedin: "https://www.linkedin.com/in/benson-mbani-phd-468171101"
+  researchgate: ""
+  twitter: ""
+  cv: ""
+
+# ============================================================
+# Site settings
+# ============================================================
+accent_color: "#1a7a6d"
+dark_mode: true
+description: "SIEAL builds GeoAI pipelines that measure carbon storage and biodiversity in Kenya's mangrove and coastal ecosystems, using satellite imagery, underwater video and machine learning."
+baseurl: ""
+url: "https://sieal.org"
+
+analytics:
+  google_id: ""      # optional: GA4 measurement ID
+
+# ============================================================
+# Navigation
+# ============================================================
+nav_pages:
+  - name: about
+  - name: research
+  - name: publications
+  - name: software
+  - name: team
+  - name: join
+    label: "Join us"
+  - name: contact
+
+# ============================================================
+# Advanced
+# ============================================================
+include:
+  - .htaccess
+  - _pages
+
+sass:
+  quiet_deps: true
+  style: compressed
+
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true
+
+plugins: ["jekyll/scholar", "jekyll-sitemap"]
+
+scholar:
+  last_name: Mbani
+  first_name: [Benson, B.]
+  style: citesty
+  locale: en
+  source: /assets/
+  bibliography: ref.bib
+  bibliography_template: bibtemplate
+  sort_by: year, month
+  order: descending
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+  query: "@*"
+  bibliography_list_attributes:
+    reversed: "reversed"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - update_bootstrap.sh
+  - switch_theme.sh
+  - tags
+  - Rakefile
+  - node_modules
+  - package.json
+  - package-lock.json
+  - docs

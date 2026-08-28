@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" role="img" aria-label="Stereo-video transect over a mangrove seabed with computer-vision detections">
+  <defs>
+    <linearGradient id="w" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f6f68"/><stop offset="100%" stop-color="#123b3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#232323"/>
+  <rect y="40" width="800" height="360" fill="url(#w)"/>
+  <path d="M0 44 q40 -10 80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0" fill="none" stroke="#5ad3c4" stroke-width="3" opacity=".85"/>
+  <path d="M0 330 q70 -26 140 -8 t130 -14 q80 -10 150 12 t180 -16 q100 -12 200 10 V400 H0 Z" fill="#0e2b2c"/>
+  <g stroke="#8fd6a4" stroke-width="3" stroke-linecap="round" opacity=".9">
+    <path d="M90 326 v-34 M84 300 l6 -12 6 12"/><path d="M150 320 v-40 M143 292 l7 -14 7 14"/>
+    <path d="M470 318 v-38 M463 291 l7 -13 7 13"/><path d="M540 330 v-30 M534 305 l6 -11 6 11"/>
+    <path d="M690 322 v-42 M683 293 l7 -14 7 14"/>
+  </g>
+  <path d="M40 200 H760" stroke="#5ad3c4" stroke-width="2" stroke-dasharray="10 8" opacity=".6"/>
+  <g transform="translate(150 182)">
+    <rect x="0" y="0" width="62" height="34" rx="6" fill="#0f4c48" stroke="#5ad3c4" stroke-width="2.5"/>
+    <circle cx="17" cy="17" r="7" fill="#232323" stroke="#5ad3c4" stroke-width="2.5"/>
+    <circle cx="45" cy="17" r="7" fill="#232323" stroke="#5ad3c4" stroke-width="2.5"/>
+    <path d="M31 0 V-22 H120" fill="none" stroke="#5ad3c4" stroke-width="2.5"/>
+  </g>
+  <g fill="none" stroke="#e8c34a" stroke-width="3">
+    <rect x="418" y="256" width="94" height="72" rx="4"/>
+    <rect x="640" y="248" width="96" height="80" rx="4"/>
+    <rect x="60" y="268" width="118" height="62" rx="4"/>
+  </g>
+</svg>

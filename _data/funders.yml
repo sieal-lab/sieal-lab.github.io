@@ -1,0 +1,6 @@
+# Funder logos shown on the About page. Drop the logo files into images/
+# and uncomment. Recommended: transparent PNG, max-height 80px.
+# - image: kenet.png
+#   url: https://www.kenet.or.ke/
+# - image: aims-ric.png
+#   url: https://aimsric.org/
