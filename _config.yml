@@ -15,8 +15,8 @@ pi_title: "Lecturer, Department of Geomatic Engineering & Geospatial Information
 # Links (blank entries are hidden automatically)
 # ============================================================
 links:
-  google_scholar: ""   # TODO: paste your Google Scholar profile URL
-  orcid: ""            # TODO: paste your ORCID iD URL
+  google_scholar: "https://scholar.google.com/citations?user=R5astmYAAAAJ"
+  orcid: "https://orcid.org/0000-0002-2348-6782"
   github: "https://github.com/sieal-lab"
   linkedin: "https://www.linkedin.com/in/benson-mbani-phd-468171101"
   researchgate: ""
