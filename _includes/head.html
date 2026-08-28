@@ -59,18 +59,21 @@
   {% include mathjax.html %}
 
   <!-- JSON-LD Structured Data -->
+  {% capture pi_profiles %}{% if site.links.orcid != "" %}{{ site.links.orcid }}|{% endif %}{% if site.links.google_scholar != "" %}{{ site.links.google_scholar }}|{% endif %}{% if site.links.linkedin != "" %}{{ site.links.linkedin }}|{% endif %}{% endcapture %}
+  {% assign pi_same_as = pi_profiles | split: "|" %}
+  {% if page.title %}{% capture ld_name %}{{ page.title }} - {{ site.name }}{% endcapture %}{% else %}{% assign ld_name = site.name %}{% endif %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "{% if page.url == '/' %}WebSite{% else %}WebPage{% endif %}",
-    "name": "{% if page.title %}{{ page.title | escape }} - {{ site.name | escape }}{% else %}{{ site.name | escape }}{% endif %}",
-    "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-    "description": "{{ site.description | escape }}",
+    "name": {{ ld_name | jsonify }},
+    "url": {{ page.url | prepend: site.baseurl | prepend: site.url | jsonify }},
+    "description": {{ site.description | jsonify }},
     "publisher": {
       "@type": "ResearchOrganization",
-      "name": "{{ site.title | escape }}",
-      "alternateName": "{{ site.name | escape }}",
-      "url": "{{ site.url }}{{ site.baseurl }}/",
+      "name": {{ site.title | jsonify }},
+      "alternateName": {{ site.name | jsonify }},
+      "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }},
       "parentOrganization": {
         "@type": "CollegeOrUniversity",
         "name": "Jomo Kenyatta University of Agriculture and Technology",
@@ -86,9 +89,9 @@
       },
       "member": {
         "@type": "Person",
-        "name": "{{ site.pi_name | escape }}",
-        "jobTitle": "{{ site.pi_title | escape }}"{% if site.links.google_scholar != "" or site.links.orcid != "" or site.links.linkedin != "" %},
-        "sameAs": [{% assign sep = "" %}{% if site.links.orcid != "" %}"{{ site.links.orcid }}"{% assign sep = ", " %}{% endif %}{% if site.links.google_scholar != "" %}{{ sep }}"{{ site.links.google_scholar }}"{% assign sep = ", " %}{% endif %}{% if site.links.linkedin != "" %}{{ sep }}"{{ site.links.linkedin }}"{% endif %}]{% endif %}
+        "name": {{ site.pi_name | jsonify }},
+        "jobTitle": {{ site.pi_title | jsonify }}{% if pi_same_as.size > 0 %},
+        "sameAs": {{ pi_same_as | jsonify }}{% endif %}
       }
     }
   }
