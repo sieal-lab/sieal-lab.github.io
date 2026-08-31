@@ -29,7 +29,7 @@ links:
 # ============================================================
 accent_color: "#1a7a6d"
 dark_mode: true
-description: "SIEAL builds GeoAI pipelines that measure carbon storage and biodiversity in Kenya's mangrove and coastal ecosystems, using satellite imagery, underwater video and machine learning."
+description: "SIEAL builds the GeoAI pipelines biodiversity finance lacks at sea — measuring carbon and biodiversity in Kenya's mangroves and coastal waters from satellite imagery, underwater video and machine learning."
 baseurl: ""
 # The site's real address. Must match the CNAME file, or canonical links
 # and the sitemap will point at the wrong host.

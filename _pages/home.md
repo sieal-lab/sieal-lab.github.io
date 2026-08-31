@@ -24,9 +24,10 @@ can actually act on.
 
 <div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-leaf callout-icon"></i> Built for the frameworks that matter</div>
-<p>Most biodiversity credit and disclosure frameworks were designed for forests on land, leaving marine and coastal
-systems poorly served. We structure our outputs to meet TNFD, Verra VM0033, CSRD and the GRI Biodiversity Standard,
-so that what we measure can be used in practice &mdash; not just published.</p>
+<p>Carbon finance already reaches Kenya's mangroves; biodiversity finance does not. The credit and disclosure
+frameworks were largely designed for forests on land, and marine and coastal systems have no established way to be
+measured against them. That measurement is what we build. We structure our outputs to meet TNFD, Verra VM0033, CSRD
+and the GRI Biodiversity Standard, so that what we measure can be used in practice &mdash; not just published.</p>
 </div>
 
 <div class="banner-frame" markdown="0">

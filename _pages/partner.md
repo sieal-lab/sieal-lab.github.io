@@ -61,6 +61,7 @@ Where you would rather hold the capability in-house, we build the pipeline *with
 - **Conservation organisations and marine park authorities** with sites but no measurement capacity
 - **Companies** facing TNFD or CSRD disclosure obligations that touch marine and coastal systems
 - **Research consortia** looking for a Western Indian Ocean partner on a proposal
+- **Multilateral and policy bodies** needing technical input on marine and coastal measurement for biodiversity finance instruments
 
 ### How an engagement works
 

@@ -19,7 +19,9 @@ reporting standards that carbon and biodiversity markets actually run on.
 
 The lab exists because of a specific gap. Biodiversity credit and disclosure frameworks were largely built for
 terrestrial ecosystems, and marine and coastal systems remain underrepresented in them. Kenya's mangroves are
-among the most carbon-dense ecosystems on Earth and among the least well measured. Our aim over the coming years
+among the most carbon-dense ecosystems on Earth and among the least well measured. Carbon finance already reaches
+coastal communities here through community-led mangrove conservation; biodiversity finance for the same ecosystems
+has no equivalent pathway, because there is no established way to measure it. Our aim over the coming years
 is to make SIEAL a leading source of GeoAI-based blue carbon and marine biodiversity intelligence for the
 Western Indian Ocean.
 </div>
@@ -50,7 +52,9 @@ Western Indian Ocean.
 ### Get in touch
 
 We welcome collaboration with conservation organisations, carbon project developers and researchers working on
-coastal ecosystems in the Western Indian Ocean &mdash; see [Partner with us]({{ site.url }}{{ site.baseurl }}/partner)
+coastal ecosystems in the Western Indian Ocean, and with multilateral and policy bodies needing technical input on
+marine and coastal measurement for biodiversity finance instruments &mdash; see
+[Partner with us]({{ site.url }}{{ site.baseurl }}/partner)
 for what that can look like in practice. If you are looking to work *in* the lab,
 see [Join us]({{ site.url }}{{ site.baseurl }}/join). Otherwise our
 [contact details]({{ site.url }}{{ site.baseurl }}/contact) are here.
