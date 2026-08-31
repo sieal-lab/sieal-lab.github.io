@@ -3,7 +3,7 @@ title: "About"
 layout: gridlay
 permalink: /about/
 seo_title: "About SIEAL - GeoAI for blue carbon in the Western Indian Ocean"
-description: "SIEAL is a research group at JKUAT building GeoAI pipelines that measure carbon storage and biodiversity in mangrove and coastal ecosystems."
+description: "SIEAL is a research group at JKUAT building the GeoAI pipelines biodiversity finance lacks at sea — measuring carbon and biodiversity in Kenya's mangroves and coastal waters."
 ---
 
 ## About SIEAL
