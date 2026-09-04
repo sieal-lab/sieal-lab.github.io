@@ -10,12 +10,16 @@ description: "Open research software from SIEAL: AI-SCW seafloor classification,
 Our analysis pipelines are released openly. Everything below is built to run over large image
 collections without manual annotation of every frame.
 
+These were developed and released by the lab's director at GEOMAR Helmholtz Centre for Ocean Research Kiel.
+They are the classification and detection components SIEAL is now adapting to Kenyan coastal conditions.
+
 <div class="section-card">
 <h4>AI-SCW &mdash; Automated and Integrated Seafloor Classification Workflow</h4>
 <div class="pub-actions" style="margin-bottom: var(--space-3);">
 <a href="https://doi.org/10.1038/s41598-022-19070-2" target="_blank" rel="noopener" class="btn-pill btn-doi">Paper</a>
 </div>
-<p><strong>Authors:</strong> <em>B. Mbani, T. Schoening, J. Greinert</em></p>
+<p><strong>Paper:</strong> <em>B. Mbani, T. Schoening, I. Z. Gazis, R. Koch, J. Greinert</em><br>
+<strong>Software release:</strong> <em>B. Mbani, T. Schoening, J. Greinert</em></p>
 <p>An end-to-end workflow for classifying seafloor imagery into habitat classes without hand-labelling every image.
 Developed on manganese-nodule covered seabed in the Central Pacific and published in <em>Scientific Reports</em> (2022).
 It is the classification backbone we are now adapting to mangrove and coastal habitats.</p>

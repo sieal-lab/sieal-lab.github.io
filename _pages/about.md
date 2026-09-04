@@ -2,8 +2,8 @@
 title: "About"
 layout: gridlay
 permalink: /about/
-seo_title: "About SIEAL - GeoAI for blue carbon in the Western Indian Ocean"
-description: "SIEAL is a research group at JKUAT building the GeoAI pipelines biodiversity finance lacks at sea — measuring carbon and biodiversity in Kenya's mangroves and coastal waters."
+seo_title: "About SIEAL - measurement infrastructure for marine habitats and biodiversity"
+description: "SIEAL is a research group at JKUAT that builds and operates measurement infrastructure for marine habitats and biodiversity, from the deep sea to Kenya's mangroves and coastal waters."
 ---
 
 ## About SIEAL
@@ -12,10 +12,17 @@ description: "SIEAL is a research group at JKUAT building the GeoAI pipelines bi
 The **Spatial Intelligence and Environmental Analytics Lab** is a research group in the Department of Geomatic
 Engineering and Geospatial Information Systems at Jomo Kenyatta University of Agriculture and Technology, Nairobi.
 
-We develop GeoAI pipelines that measure carbon storage and biodiversity in blue carbon ecosystems &mdash; mangroves,
-seagrass and the coastal waters around them. Our work combines satellite remote sensing, spaceborne LiDAR,
-underwater stereo-video, computer vision and geostatistical modelling, and we design our outputs to meet the
-reporting standards that carbon and biodiversity markets actually run on.
+We build and operate measurement infrastructure for marine habitats and biodiversity. Imagery and Earth
+observation data go in &mdash; satellite optical, spaceborne LiDAR, towed camera systems, underwater stereo-video
+&mdash; and out come habitat classifications, standardised biodiversity metrics, spatial distribution and hotspot
+analyses, and mapped outputs with documented provenance and stated uncertainty. The pipeline was built and
+published on deep-sea imagery from the Pacific and the tropical Atlantic; it is now being applied to Kenya's
+mangroves and coastal waters. The deep-sea and coastal lines are two applications of one method, not two
+unrelated projects.
+
+We design our outputs to meet the reporting standards that carbon and biodiversity markets actually run on, and
+we are positioned as a methodology and data provider &mdash; including upstream of the accredited bodies that
+carry out validation and verification.
 
 The lab exists because of a specific gap. Biodiversity credit and disclosure frameworks were largely built for
 terrestrial ecosystems, and marine and coastal systems remain underrepresented in them. Kenya's mangroves are
@@ -25,6 +32,25 @@ has no equivalent pathway, because there is no established way to measure it. Ou
 is to make SIEAL a leading source of GeoAI-based blue carbon and marine biodiversity intelligence for the
 Western Indian Ocean.
 </div>
+
+<div class="section-card" markdown="1">
+### Infrastructure
+
+The lab operates its own stack rather than borrowing one project by project. A GeoNode instance, backed by
+PostGIS and GeoServer, is our data-publishing portal, so that datasets and map services can be released with
+metadata and served to collaborators rather than emailed as files. Model training runs on an NVIDIA A30 GPU
+provided by the Kenya Education Network (KENET), with further capacity available on KENET's Chui
+high-performance computing facility subject to allocation.
+
+This is what separates an operating lab from an individual researcher, and it is the honest answer to the
+capacity question any funder or client will ask of a group this size. It is also a fair statement of the
+limits: present capacity supports model development, and scaling to repeat inference across multiple sites
+is something we would size and cost as part of an engagement rather than assume.
+</div>
+
+<!-- TODO: link the portal (portal.sieal.org) from here once the first dataset is
+     published on it. Pointing a funder or procurement reader at an empty portal
+     costs more credibility than the link gains. -->
 
 {% if site.data.grants %}
 <div class="section-card">
@@ -52,8 +78,9 @@ Western Indian Ocean.
 ### Get in touch
 
 We welcome collaboration with conservation organisations, carbon project developers and researchers working on
-coastal ecosystems in the Western Indian Ocean, and with multilateral and policy bodies needing technical input on
-marine and coastal measurement for biodiversity finance instruments &mdash; see
+marine and coastal ecosystems in the Western Indian Ocean, and with intergovernmental, regional and
+development-finance bodies procuring technical input on habitat mapping, biodiversity measurement and area-based
+management &mdash; see
 [Partner with us]({{ site.url }}{{ site.baseurl }}/partner)
 for what that can look like in practice. If you are looking to work *in* the lab,
 see [Join us]({{ site.url }}{{ site.baseurl }}/join). Otherwise our

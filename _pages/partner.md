@@ -3,15 +3,16 @@ title: "Partner"
 layout: gridlay
 permalink: /partner/
 seo_title: "Partner with us - SIEAL"
-description: "SIEAL provides blue carbon stock assessment and marine biodiversity measurement for carbon project developers, conservation organisations and TNFD reporting."
+description: "SIEAL provides habitat mapping, blue carbon stock assessment, biodiversity measurement and area-based management support for carbon developers, conservation bodies and intergovernmental agencies."
 ---
 
 ## Partner with us
 
-We measure carbon and biodiversity in coastal ecosystems, and turn those measurements into outputs
-that hold up under scrutiny &mdash; from a verifier, a regulator, or a peer reviewer. If you have a site
-that needs quantifying, or a disclosure obligation you cannot currently evidence, we would like to hear
-from you.
+We measure marine habitats and biodiversity &mdash; in the deep sea and on the coast &mdash; and turn those
+measurements into outputs that hold up under scrutiny, whether the scrutiny comes from a verifier, a
+procurement officer, a regulator or a peer reviewer. If you have a site or a region that needs quantifying,
+an image archive nobody has been able to analyse, or an obligation you cannot currently evidence, we would
+like to hear from you.
 
 We are a young lab and would rather say so than oversell. What we bring is not a long client list but a
 set of peer-reviewed methods, published in Nature Portfolio journals and already running at scale over
@@ -49,6 +50,20 @@ not feasible, that is the specific problem we have spent years on. See
 </div>
 
 <div class="section-card" markdown="1">
+### Regional data compilation and area-based management support
+
+For a region rather than a single site: compiling the available environmental and biodiversity data into one
+consistent, documented layer; classifying habitats across it; testing how well existing protected or managed
+areas represent what is there; identifying the gaps; and setting out candidate areas where an area-based
+management tool would add the most. Delivered as maps, a written method and the underlying data, with
+provenance recorded throughout so that a body adopting the output can defend how it was produced.
+
+This is the service chain behind the deep-sea work &mdash; regional environmental management planning is what
+seafloor habitat classification and megafauna distribution mapping were built to inform &mdash; and it applies
+equally to a coastal or nearshore region.
+</div>
+
+<div class="section-card" markdown="1">
 ### Method development and training
 
 Where you would rather hold the capability in-house, we build the pipeline *with* your team instead of
@@ -59,9 +74,10 @@ Where you would rather hold the capability in-house, we build the pipeline *with
 
 - **Carbon project developers** needing credible MRV for blue carbon projects
 - **Conservation organisations and marine park authorities** with sites but no measurement capacity
-- **Companies** facing TNFD or CSRD disclosure obligations that touch marine and coastal systems
+- **Companies** with EU-linked or voluntary reporting commitments &mdash; CSRD, TNFD &mdash; that touch marine and coastal systems
 - **Research consortia** looking for a Western Indian Ocean partner on a proposal
-- **Multilateral and policy bodies** needing technical input on marine and coastal measurement for biodiversity finance instruments
+- **Intergovernmental and regional bodies** &mdash; seabed and ocean governance, regional seas conventions, fisheries and marine protected area agencies &mdash; procuring technical input on habitat mapping, representativeness analysis and area-based management
+- **Development finance institutions and UN agencies** needing marine and coastal measurement to sit behind a biodiversity finance instrument or a lending condition
 
 ### How an engagement works
 
@@ -76,6 +92,10 @@ We design our outputs to meet the requirements of Verra VM0033, TNFD, CSRD and t
 Standard. To be precise about what that means: we are a research group, not an accredited validation or
 verification body. We produce the measurements and documentation that go *into* those processes; the
 certification itself sits with the accredited bodies.
+
+We are equally precise about what drives demand. Neither CSRD nor TNFD is a legal mandate in Kenya, and we
+do not suggest otherwise. What is real here and now is development finance conditionality, the requirements of
+voluntary carbon and biodiversity markets, and the reporting obligations of counterparties domiciled elsewhere.
 
 ### Data and publication
 
