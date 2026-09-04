@@ -46,7 +46,9 @@ what you would want to learn.
 <a href="mailto:{{ site.apply_email }}?subject=Junior%20Research%20Assistant%20application">{{ site.apply_email }}</a>,
 with your name in the subject line.{% endif %}
 
-<!-- TODO: add the application deadline and, if there is a formal JKUAT HR route, link it here -->
+{% comment %}
+TODO: add the application deadline and, if there is a formal JKUAT HR route, link it here.
+{% endcomment %}
 </div>
 
 <div class="section-card" markdown="1">

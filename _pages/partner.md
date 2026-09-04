@@ -109,7 +109,9 @@ Email <a href="mailto:{{ site.email }}?subject=Partnership%20enquiry">{{ site.em
 or the question you have in mind. Concrete enquiries get a more useful answer than general ones.
 </div>
 
-<!-- TODO: the engagement model above is a sensible default, not a decision.
-     Adjust once you have settled how you want to charge, whether JKUAT's
-     finance office must contract on the lab's behalf, and what turnaround
-     you can realistically promise. -->
+{% comment %}
+TODO: the engagement model above is a sensible default, not a decision.
+Adjust once you have settled how you want to charge, whether JKUAT's
+finance office must contract on the lab's behalf, and what turnaround
+you can realistically promise.
+{% endcomment %}

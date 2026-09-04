@@ -48,9 +48,14 @@ limits: present capacity supports model development, and scaling to repeat infer
 is something we would size and cost as part of an engagement rather than assume.
 </div>
 
-<!-- TODO: link the portal (portal.sieal.org) from here once the first dataset is
-     published on it. Pointing a funder or procurement reader at an empty portal
-     costs more credibility than the link gains. -->
+{% comment %}
+TODO: link the portal (portal.sieal.org) from here once the first dataset is
+published on it. Pointing a funder or procurement reader at an empty portal
+costs more credibility than the link gains.
+
+Liquid comment, not an HTML one: HTML comments are served to the browser and
+show up in view-source on a public page.
+{% endcomment %}
 
 {% if site.data.grants %}
 <div class="section-card">
